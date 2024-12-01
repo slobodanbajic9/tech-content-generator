@@ -1,0 +1,16 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Markdown Styling */
+.prose {
+  max-width: none;
+}
+.dark .prose-invert {
+  --tw-prose-body: #d1d5db;
+  --tw-prose-headings: #ffffff;
+  --tw-prose-links: #60a5fa;
+  --tw-prose-links-hover: #3b82f6;
+  --tw-prose-code: #f87171;
+  --tw-prose-code-bg: #1f2937;
+}
