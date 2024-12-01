@@ -10,12 +10,14 @@
   },
   "dependencies": {
     "@tailwindcss/forms": "^0.5.9",
+    "markdown-to-jsx": "^7.7.0",
     "mongodb": "^6.11.0",
     "mongoose": "^8.8.3",
     "next": "15.0.3",
     "openai": "^4.73.1",
     "react": "^18.3.1",
     "react-dom": "^18.3.1",
+    "react-icons": "^5.3.0",
     "react-markdown": "^9.0.1",
     "ui": "github:shadcn/ui"
   },
