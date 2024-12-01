@@ -3,14 +3,14 @@
 @tailwind utilities;
 
 /* Markdown Styling */
-.prose {
+.generator {
   max-width: none;
 }
-.dark .prose-invert {
-  --tw-prose-body: #d1d5db;
-  --tw-prose-headings: #ffffff;
-  --tw-prose-links: #60a5fa;
-  --tw-prose-links-hover: #3b82f6;
-  --tw-prose-code: #f87171;
-  --tw-prose-code-bg: #1f2937;
+.dark .generator-invert {
+  --tw-generator-body: #d1d5db;
+  --tw-generator-headings: #ffffff;
+  --tw-generator-links: #60a5fa;
+  --tw-generator-links-hover: #3b82f6;
+  --tw-generator-code: #f87171;
+  --tw-generator-code-bg: #1f2937;
 }
