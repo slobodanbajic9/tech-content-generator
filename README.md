@@ -16,7 +16,6 @@ A modern Next.js application powered by AI to help developers generate technical
 - **Language**: TypeScript
 - **Styling**: Tailwind CSS
 - **Fonts**: Geist & Geist Mono
-- **Database**: MongoDB
 - **AI Integration**: OpenAI API
 
 ## Getting Started
@@ -25,7 +24,6 @@ A modern Next.js application powered by AI to help developers generate technical
 
 - Node.js (v18 or later recommended)
 - npm or yarn
-- MongoDB database
 - OpenAI API key
 
 ### Installation
