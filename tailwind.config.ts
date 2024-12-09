@@ -1,4 +1,5 @@
 import forms from "@tailwindcss/forms";
+import typography from "@tailwindcss/typography";
 import { Config } from "tailwindcss";
 
 const config: Config = {
@@ -7,7 +8,7 @@ const config: Config = {
   theme: {
     extend: {},
   },
-  plugins: [forms],
+  plugins: [forms, typography],
 };
 
 export default config;
