@@ -1,6 +1,6 @@
 import ReactMarkdown from "react-markdown";
 import { Prism as SyntaxHighlighter } from "react-syntax-highlighter";
-import { atomDark } from "react-syntax-highlighter/dist/cjs/styles/prism";
+import { atomDark as atomDarkStyle } from "react-syntax-highlighter/dist/cjs/styles/prism";
 import remarkGfm from "remark-gfm";
 
 type MarkdownOutputProps = {
@@ -23,10 +23,9 @@ const MarkdownOutput = ({ output }: MarkdownOutputProps) => (
             const match = /language-(\w+)/.exec(className || "");
             return !inline && match ? (
               <SyntaxHighlighter
-                style={atomDark}
+                style={atomDarkStyle as any}
                 language={match[1]}
-                PreTag="div"
-                {...props}>
+                PreTag="div">
                 {String(children).replace(/\n$/, "")}
               </SyntaxHighlighter>
             ) : (

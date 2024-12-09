@@ -1,6 +1,7 @@
 "use client";
 
 import { generateContent } from "../utils/api";
+import Footer from "./components/Footer";
 import Header from "./components/Header";
 import MarkdownOutput from "./components/MarkdownOutput";
 import TextArea from "./components/TextArea";
@@ -40,6 +41,7 @@ export default function Home() {
           />
           <MarkdownOutput output={output} />
         </main>
+        <Footer />
       </div>
     </div>
   );
